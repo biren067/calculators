@@ -85,6 +85,12 @@ const calculators = [
     description: 'Simple arithmetic calculator',
     icon: '🧮',
   },
+  {
+    name: 'Stock Average',
+    slug: 'stock-average',
+    description: 'Average price of stock holdings',
+    icon: '🧮',
+  },
 ];
 
 export default function Home() {
@@ -190,7 +196,7 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-bold text-gray-900 mb-2">Is my data saved?</h3>
               <p className="text-gray-700">
-                No, all calculations are performed locally in your browser. We don't store or transmit your data anywhere.
+                Yes, all calculations are performed locally in your browser. We don't store or transmit your data anywhere.
               </p>
             </div>
             <div>
