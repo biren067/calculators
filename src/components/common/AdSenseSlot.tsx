@@ -19,7 +19,7 @@ export const AdSenseSlot: React.FC<AdSenseSlotProps> = ({
   adFormat = 'auto',
   fullWidth = true,
 }) => {
-  if (!ADS_ENABLED) {
+  if (ADS_ENABLED) {
     // Render placeholder when ads disabled
     return (
       <div className="my-6 p-6 bg-gray-100 border-2 border-dashed border-gray-300 rounded-lg text-center">
